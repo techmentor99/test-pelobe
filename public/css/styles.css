@@ -57,6 +57,62 @@ blockquote {
     display: none;
 }
 
+#parallax {
+    background: url(../img/about_bg2.png) no-repeat center top  ;
+    
+    width:100%;
+    height:600px;
+    position:absolute;
+    display:block;
+    z-index: 10;
+}
+
+#parallax_2 {
+    background: url(../img/about_bg3.png) no-repeat center top  ;
+    
+    width:100%;
+    height:600px;
+    position:absolute;
+    display:block;
+    z-index: 1;
+}
+
+#parallax_3 {
+    background: url(../img/bg.jpg) no-repeat center  top;
+    display:block;
+    width:100%;
+    height:600px;
+    position:absolute;
+    z-index: 2;
+}
+
+#parallax_4 {
+    background: url(../img/services_bg3.png) no-repeat center top;      
+    display:block;
+    width:100%;
+    height:600px;
+    position:absolute;
+    z-index: 10; 
+}
+
+#parallax_5 {
+    background: url(../img/works_bg2.png) no-repeat center top  ;    
+    width:100%;
+    height:600px;
+    position:absolute;
+    display:block;
+    z-index: 1;
+}
+
+#parallax_6 {
+    background: url(../img/works_bg3.png) no-repeat center top  ;    
+    width:100%;
+    height:600px;
+    position:absolute;
+    display:block;
+    z-index: 10;
+}
+
 /* NAV
 ******************************************************************/
 
@@ -116,7 +172,7 @@ nav li a.selected {
 	z-index: 200;
 }
 
-#about, #services, #works, #start_project {
+#services, #works, #start_project {
   border-bottom: 1px solid #ccc;
 }
 
@@ -313,9 +369,21 @@ nav li a.selected {
 
 /* Services
 ******************************************************************/
+#services_bg { 
+    background: url(../img/bg-5.jpg) no-repeat center center;
+    background-color:#f1f1f1;
+    width:100%;
+    height:300px;
+    position:absolute;
+    z-index: -2;
+    top:0px;
+    left:0px;
+    border-bottom: 1px solid #666;
+}
 
 #services .content {
   background-color: #E0E3E4;
+  padding-top: 380px;
 }
 
 #services h4, #about h4 {
@@ -331,12 +399,13 @@ nav li a.selected {
 }
 
 #services_header {
-  background-color:#D9CEAD; 
-  width:100%;
-  height:450px;
-  position:relative;
-  display:block;
-  text-align: center;  
+    background: url(../img/bg.jpg) no-repeat center center  ;
+    background-color:#D9CEAD; 
+    width:100%;
+    height:450px;
+    position:relative;
+    display:block;
+    text-align: center;  
      
 }
 
